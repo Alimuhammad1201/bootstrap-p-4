@@ -1,0 +1,28 @@
+
+
+@use 'custom';
+
+
+
+
+// IMPORT THE COMPONENTS
+@use 'components/animations'; 
+@use 'components/buttons'; 
+@use 'components/mixins'; 
+@use 'components/typography';
+
+
+// IMPORT THE SECTIONS
+@use 'sections/navber'; 
+@use 'sections/intro'; 
+@use 'sections/apps'; 
+@use 'sections/charg'; 
+@use 'sections/client'; 
+@use 'sections/code'; 
+@use 'sections/compines'; 
+@use 'sections/download'; 
+@use 'sections/faq'; 
+@use 'sections/jackpot'; 
+@use 'sections/our'; 
+@use 'sections/ultimate'; 
+@use 'sections/footer'; 

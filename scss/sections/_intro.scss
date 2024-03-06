@@ -1,0 +1,34 @@
+
+
+@use '../custom' as *;
+
+
+.intro-section {
+
+	padding: 2rem 0 0 0;
+	width: 100%;
+	height: 100%;
+.btn {
+	color: $primary;
+	&:hover {
+		color: #fff;
+		background-color: $primary;
+	}
+}
+
+	.had {
+	  @include media-breakpoint-down(sm) {
+		padding-top: 4rem;
+		font-size: 1.9rem;
+
+	}
+
+  }
+
+}
+
+
+
+
+
+	

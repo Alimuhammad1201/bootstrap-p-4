@@ -1,0 +1,19 @@
+
+
+
+@use '../custom' as *;
+
+#footer {
+	background-color: #09142e;
+}
+
+.ic {
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	color: $gray-400;
+}
+
+.ho {
+	color: #fff;
+}

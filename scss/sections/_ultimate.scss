@@ -1,0 +1,29 @@
+
+
+@use '../custom' as*;
+
+.jan {
+	padding-top: 10rem;
+}
+
+
+@include media-breakpoint-down(sm) {
+	.icon {
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	.icnoon {
+		text-align: center;
+	}
+
+	.p {
+		font-size: 1rem;
+	}
+
+	.jan {
+		padding-top: 3rem;
+	}
+
+	
+}

@@ -1,0 +1,44 @@
+
+
+@use '../custom' as *;
+.app{
+	margin-top: 5rem;
+}
+
+.card-head {
+	background-color: #f5f7f9;
+}
+
+.dol {
+	font-size: 4rem;
+	padding-top: 2rem;
+}
+
+.heed {
+	font-size: 2rem;
+}
+
+.por {
+	font-size: 1rem;
+}
+
+.col {
+	
+	text-align: center;
+}
+
+.h {
+	font-size: 3rem; 
+}
+
+.carrd {
+	margin-left: 16rem ;
+}
+
+
+@include media-breakpoint-down(sm) {
+	.carrd {
+		    margin-left: 0rem;
+	}	
+
+}

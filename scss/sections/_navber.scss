@@ -1,0 +1,32 @@
+
+@use '../custom' as *;
+
+.navbar {
+	background-color: #fff;
+}
+.lo {
+	color: #fcae61;
+	font-size: 2rem;
+}
+.logo {
+	color: #242f51;
+}
+
+.navbar-toggler {
+	background-color: #adb5bd;
+}
+.menu {
+	li {
+		padding: 0 0.7rem;
+		a {
+			color: #242f51;
+			text-transform: capitalize;
+			font-weight: 600;
+			margin-right: 1.4rem;
+
+			&:hover {
+			    color: #fcae61;
+			}
+		}
+	}
+}

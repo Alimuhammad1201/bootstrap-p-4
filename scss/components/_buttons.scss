@@ -1,0 +1,26 @@
+
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.rounded-pill {
+	@include media-breakpoint-down(sm) {
+		display: none;
+	}
+	padding: 1rem 1rem 1rem 1rem;
+	margin: 0;
+	border: 0.1rem solid rgba($white, 0.6);
+	font-weight: 700;
+
+	}
+
+.btn{
+    padding: 1rem 1rem 1rem 1rem;
+	font-weight: 700;
+	margin: 0;
+	border: 0.1rem solid rgba($white, 0.6);
+	margin-left: 1rem;
+	
+
+}
+	

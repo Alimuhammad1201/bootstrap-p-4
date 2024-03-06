@@ -1,0 +1,19 @@
+
+
+@use '../custom' as *;
+
+
+.had {
+	font-size: 3rem;
+}
+
+.wal {
+	font-size: 2rem;
+
+}
+
+	@include media-breakpoint-down(sm) {
+		.had {
+			font-size: 2rem;
+		}
+}
